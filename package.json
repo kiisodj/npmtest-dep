@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/simonneaves/npmtest-dep/issues"
   },
-  "homepage": "https://github.com/simonneaves/npmtest-dep#readme"
+  "homepage": "https://github.com/simonneaves/npmtest-dep#readme",
+  "dependencies": {
+    "npmtest-subdep": "github:simonneaves/npmtest-subdep"
+  }
 }
